@@ -1,0 +1,16 @@
+{
+  "author": {
+    "author_id": "ultimaker",
+    "display_name": "UltiMaker",
+    "email": "plugins@ultimaker.com",
+    "website": "https://github.com/Ultimaker/CuraEngine_plugin_infill_generate"
+  },
+  "description": "CuraEngine Tiled infill generation plugin",
+  "display_name": "CuraEngineTiledInfill",
+  "package_id": "CuraEngineTiledInfill",
+  "package_type": "plugin",
+  "package_version": "0.2.0",
+  "sdk_version": 8,
+  "sdk_version_semver": "8.5.0",
+  "website": "https://github.com/conan-io/conan-center-index"
+}

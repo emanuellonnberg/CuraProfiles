@@ -1,0 +1,624 @@
+{
+    "dismissed": [],
+    "installed": {
+        "3dPrintLogUploader": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.6\\cache\\cura_packages\\3dPrintLogUploader.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "3d-print-log",
+                    "display_name": "3DPrintLog.com",
+                    "email": "hoffman3dprinting@gmail.com",
+                    "website": "https://www.3dprintlog.com"
+                },
+                "description": "Send print info to 3D Print Log. Easily save print settings/duration/filament usage as a new print on https://www.3dprintlog.com.",
+                "display_name": "3D Print Log Uploader",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "3dPrintLogUploader",
+                "package_type": "plugin",
+                "package_version": "2.0.5",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.0.0",
+                "website": "https://www.3dprintlog.com"
+            }
+        },
+        "ArcWelderPlugin": {
+            "filename": "D:\\Users\\elmaniaco\\AppData\\Local\\cura\\5.1\\cache\\cura_packages\\ArcWelderPlugin.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "fieldofview",
+                    "display_name": "fieldOfView",
+                    "email": "aldo@fieldofview.com",
+                    "website": "http://fieldofview.com"
+                },
+                "description": "Converts multiple subsequent G0/G1 moves to G2/G3 arcs. This reduces the number of gcode commands necessary to make curved movements, thus potentially removing stutter caused by buffer under-runs in the 3d printer controller.\n\nThis plugin uses ArcWelder by @FormerLurker: https://github.com/FormerLurker/ArcWelderLib\n\nThe plugin adds several settings to the \"Special Modes\" category in Cura. The \"Arc Welder\" setting needs to be checked to enable ArcWelder processing. See the plugin website for a more thorough description of the settings.\n\nThe development of this plugin can be sponsored via Github Sponsors (https://github.com/sponsors/fieldofview) or Paypal (https://www.paypal.me/fieldofview)",
+                "display_name": "Arc Welder",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "ArcWelderPlugin",
+                "package_type": "plugin",
+                "package_version": "3.6.0",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.0.0",
+                "website": "https://github.com/fieldOfView/Cura-ArcWelderPlugin"
+            }
+        },
+        "AutoTowersGenerator": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.9\\cache\\cura_packages\\AutoTowersGenerator.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "Kartchnb",
+                    "display_name": "Brad Kartchner",
+                    "email": "kartchnb@gmail.com",
+                    "website": "https://github.com/kartchnb"
+                },
+                "description": "Allows you to quickly and easily print several types of calibration towers without messing around with gcode or post-processing -  Just click and print!\n\nMany pre-generated towers are included in the plugin, but, if OpenSCAD is installed (openscad.org), custom towers can be generated and printed with very little effort.",
+                "display_name": "AutoTowers Generator",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "AutoTowersGenerator",
+                "package_type": "plugin",
+                "package_version": "2.7.2",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.6.0",
+                "website": "https://github.com/kartchnb/AutoTowersGenerator"
+            }
+        },
+        "BananaSplit": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.8\\cache\\cura_packages\\BananaSplit.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "jarrrgh",
+                    "display_name": "jarrrgh",
+                    "email": "jarrrgh+ultimaker@gmail.com",
+                    "website": "https://github.com/jarrrgh"
+                },
+                "description": "Split model with one easy action along the build plate. Position your model so that part of it goes below the build plate and press Split button. The tool will reflect anything below the surface on top of it. You may then move the original model along the Z axis to fine tune the \"cut\" real-time.\n\nThis is a pseudo-split, which means objects are not actually split in half. Instead, they get duplicated and mirrored along the build plate. Cura takes care, that nothing below the build plate gets printed.",
+                "display_name": "Banana Split",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "BananaSplit",
+                "package_type": "plugin",
+                "package_version": "1.0.3",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.8.0",
+                "website": "https://github.com/jarrrgh/banana-split"
+            }
+        },
+        "CalibrationShapes": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.4\\cache\\cura_packages\\CalibrationShapes.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "5axes",
+                    "display_name": "5axes",
+                    "email": "cuq@free.fr",
+                    "website": "https://github.com/5axes"
+                },
+                "description": "This plugin adds a menu to create some basic shapes to the scene (cube, cylinder, tube, sphere) and standard test parts. \n\nYou can add standard test / calibration part :\n- Calibration Cube XYZ\n- PLA TempTower 220 - 180\u00b0C\n- PLA TempTower 220 - 190\u00b0C\n- PLA+ TempTower 230 - 200\u00b0C\n- ABS TempTower 250 - 210\u00b0C\n- PETG TempTower 260 - 230\u00b0C\n- PC TempTower 290 - 250\u00b0C\n- Acceleration Tower\n- Retract Tower\n- A XY calibration Test\n- Retract Test part\n- Bridge Spiral Test\n- Thin Wall Test\n- Overhang Test\n- Flow Tower Test\n- Flow Test\n- Max Flow Test\n- Multi Flow Test\n- Tolerance Test\n- Support Test\n- Lithophane Test\n- Dimensional Accuracy Test\n- Linear Pressure Advance Tower\n- Bed Level Calibration Test\n\nAnd Multi-Extruder part :\n- Extruder Offset Calibration\n- Calibration Cube bi-color\n- Cube bi-color\n\n+ 7 postprocessing scripts",
+                "display_name": "Calibration Shapes",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "CalibrationShapes",
+                "package_type": "plugin",
+                "package_version": "2.2.4",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.3.0",
+                "website": "https://github.com/5axes/Calibration-Shapes"
+            }
+        },
+        "CuraBlender": {
+            "filename": "D:\\Users\\elmaniaco\\AppData\\Local\\cura\\5.1\\cache\\cura_packages\\CuraBlender.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "awiegel",
+                    "display_name": "Alexander Wiegel",
+                    "email": "alexander.wiegel@outlook.com",
+                    "website": "https://github.com/awiegel"
+                },
+                "description": "Provides support for reading/writing BLEND files.\nAdds further functionality, for example live mesh reloading.\n\nTrailer: https://www.youtube.com/watch?v=0cdlJtuJI70",
+                "display_name": "CuraBlender",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "CuraBlender",
+                "package_type": "plugin",
+                "package_version": "2.0.0",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.0.0",
+                "website": "https://github.com/awiegel/CuraBlender"
+            }
+        },
+        "CuraEngineTiledInfill": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.5\\cache\\cura_packages\\CuraEngineTiledInfill.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "ultimaker",
+                    "display_name": "UltiMaker",
+                    "email": "plugins@ultimaker.com",
+                    "website": "https://github.com/Ultimaker/CuraEngine_plugin_infill_generate"
+                },
+                "description": "CuraEngine Tiled infill generation plugin",
+                "display_name": "CuraEngineTiledInfill",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "CuraEngineTiledInfill",
+                "package_type": "plugin",
+                "package_version": "0.2.0",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.5.0",
+                "website": "https://github.com/conan-io/conan-center-index"
+            }
+        },
+        "CuraSlowZ": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.2\\cache\\cura_packages\\CuraSlowZ.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "5axes",
+                    "display_name": "5axes",
+                    "email": "cuq@free.fr",
+                    "website": "https://github.com/5axes"
+                },
+                "description": "Adds a percentage to slow the printer as Z rises. This plugin assumes M220 is working with your printer.\nBased on an existing Plugin https://github.com/VMaxx/SlowZ",
+                "display_name": "Cura Slow Z",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "CuraSlowZ",
+                "package_type": "plugin",
+                "package_version": "1.0.2",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.0.0",
+                "website": "https://github.com/5axes/Cura-Slow-Z"
+            }
+        },
+        "CustomJobPrefix": {
+            "filename": "D:\\Users\\elmaniaco\\AppData\\Local\\cura\\5.1\\cache\\cura_packages\\CustomJobPrefix.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "fieldofview",
+                    "display_name": "fieldOfView",
+                    "email": "aldo@fieldofview.com",
+                    "website": "http://fieldofview.com"
+                },
+                "description": "Lets the user customise the prefix and postfix for print jobs (gcode files) on a per-printer basis. \n\nFormerly known as Custom Printjob Prefix.",
+                "display_name": "Printjob Naming",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "CustomJobPrefix",
+                "package_type": "plugin",
+                "package_version": "3.7.0",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.0.0",
+                "website": "https://github.com/fieldOfView/Cura-CustomJobPrefix"
+            }
+        },
+        "CustomSupportCylinder": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.3\\cache\\cura_packages\\CustomSupportCylinder.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "5axes",
+                    "display_name": "5axes",
+                    "email": "cuq@free.fr",
+                    "website": "https://github.com/5axes"
+                },
+                "description": "A Cura plugin  to add 6 types of custom supports :\n- Cylindrical\n- Tube\n- Cube\n- Abutment\n- Freeform ( Geometry can be defined by your own STL  file)\n           - Cross\n           - Section\n           - Pillar\n           - Bridge\n           - Arch Buttress  (Arc boutant)\n           - Custom\n- Customized ( Definition with two selected points )",
+                "display_name": "Cylindric Custom Support",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "CustomSupportCylinder",
+                "package_type": "plugin",
+                "package_version": "2.8.0",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.2.0",
+                "website": "https://github.com/5axes/CustomSupportCylinder"
+            }
+        },
+        "CustomSupportEraserPlus": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.5\\cache\\cura_packages\\CustomSupportEraserPlus.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "5axes",
+                    "display_name": "5axes",
+                    "email": "cuq@free.fr",
+                    "website": "https://github.com/5axes"
+                },
+                "description": "Cura plugin which enables you to add different custom support blocker.",
+                "display_name": "Custom Supports Eraser Plus",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "CustomSupportEraserPlus",
+                "package_type": "plugin",
+                "package_version": "1.1.0",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.2.0",
+                "website": "https://github.com/5axes/CustomSupportEraserPlus"
+            }
+        },
+        "HTMLCuraSettings": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.5\\cache\\cura_packages\\HTMLCuraSettings.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "5axes",
+                    "display_name": "5axes",
+                    "email": "cuq@free.fr",
+                    "website": "https://github.com/5axes"
+                },
+                "description": "Export settings to an HTML File\nIt creates an extra menu option under File -> \"Save Project...\" that allows you to save all of the settings to an HTML file for review/sharing. ",
+                "display_name": "Export HTML Cura Settings",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "HTMLCuraSettings",
+                "package_type": "plugin",
+                "package_version": "2.1.4",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.4.0",
+                "website": "https://github.com/5axes/CuraSettingsWriter"
+            }
+        },
+        "KlipperSettingsPlugin": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.4\\cache\\cura_packages\\KlipperSettingsPlugin.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "JJGraphiX",
+                    "display_name": "JJFX",
+                    "email": "jjfx.contact@gmail.com",
+                    "website": "https://ultimaker.com"
+                },
+                "description": "Adds a new Klipper Settings category with a number of Klipper-specific settings and features to the Cura settings list. All features are designed to work without the need for additional Klipper translation macros. Multiple extruders are supported.\n\nCompatible only with Klipper firmware.",
+                "display_name": "Klipper Settings",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "KlipperSettingsPlugin",
+                "package_type": "plugin",
+                "package_version": "1.0.1",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.0.0",
+                "website": "https://github.com/jjgraphix/KlipperSettingsPlugin"
+            }
+        },
+        "MeasureTool": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.3\\cache\\cura_packages\\MeasureTool.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "fieldofview",
+                    "display_name": "fieldOfView",
+                    "email": "aldo@fieldofview.com",
+                    "website": "http://fieldofview.com"
+                },
+                "description": "Adds a tool for measuring parts of models.\n\nThe plugin lets the user select two points, either on models or on the build plate. The distance between these two points is shown in the panel for the tool; the distance is shown both per axis and diagonally. \n\nWhen clicking the tool moves the closest of the two points to the cursor. Hold down the shift key to alternate between the two points instead.\n\nThe development of this plugin can be sponsored via Github Sponsors (https://github.com/sponsors/fieldofview) or Paypal (https://www.paypal.me/fieldofview)",
+                "display_name": "Measure Tool",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "MeasureTool",
+                "package_type": "plugin",
+                "package_version": "1.2.0",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.0.0",
+                "website": "https://github.com/fieldOfView/Cura-MeasureTool/"
+            }
+        },
+        "MeshTools": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.3\\cache\\cura_packages\\MeshTools.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "fieldofview",
+                    "display_name": "fieldOfView",
+                    "email": "aldo@fieldofview.com",
+                    "website": "http://fieldofview.com"
+                },
+                "description": "Adds several mesh analysis and manipulation tools.\n\nThe development of this plugin can be sponsored via Github Sponsors (https://github.com/sponsors/fieldofview) or Paypal (https://www.paypal.me/fieldofview)",
+                "display_name": "Mesh Tools",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "MeshTools",
+                "package_type": "plugin",
+                "package_version": "3.7.2",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.0.0",
+                "website": "https://github.com/fieldOfView/Cura-MeshTools"
+            }
+        },
+        "MoonrakerConnection": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.7\\cache\\cura_packages\\MoonrakerConnection.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "emtrax",
+                    "display_name": "emtrax",
+                    "email": "okuda@gmx.de",
+                    "website": "https://github.com/emtrax-ltd/Cura2MoonrakerPlugin"
+                },
+                "description": "Upload and Print with Klipper via Moonraker API.\n\nThe development of this plugin can be sponsored via \"Ko-fi\" (https://ko-fi.com/emtrax) or \"Buy Me a Coffee\" (https://www.buymeacoffee.com/emtrax).",
+                "display_name": "Moonraker Connection",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "MoonrakerConnection",
+                "package_type": "plugin",
+                "package_version": "1.9.1",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.7.0",
+                "website": "https://github.com/emtrax-ltd/Cura2MoonrakerPlugin"
+            }
+        },
+        "OctoPrintPlugin": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.7\\cache\\cura_packages\\OctoPrintPlugin.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "fieldofview",
+                    "display_name": "fieldOfView",
+                    "email": "aldo@fieldofview.com",
+                    "website": "http://fieldofview.com"
+                },
+                "description": "Enables networked printing and monitoring with OctoPrint.\n\nOctoPrint is a registered trademark. For more information about OctoPrint, see octoprint.org\n\nThe development of this plugin can be sponsored via Github Sponsors (https://github.com/sponsors/fieldofview) or Paypal (https://www.paypal.me/fieldofview)",
+                "display_name": "OctoPrint Connection",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "OctoPrintPlugin",
+                "package_type": "plugin",
+                "package_version": "3.7.3",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.0.0",
+                "website": "https://github.com/fieldOfView/Cura-OctoPrintPlugin"
+            }
+        },
+        "OrientationPlugin": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.4\\cache\\cura_packages\\OrientationPlugin.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "nallath",
+                    "display_name": "nallath",
+                    "email": "j.vankessel@ultimaker.com",
+                    "website": "http://www.github.com/nallath"
+                },
+                "description": "Extension that enables the automatic orientation of models to reduce the need for support. This wraps the MeshTweaker by Christoph Schranz, so it can be easily used in Cura. ",
+                "display_name": "Auto-Orientation",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "OrientationPlugin",
+                "package_type": "plugin",
+                "package_version": "3.7.1",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.0.0",
+                "website": "https://github.com/nallath/CuraOrientationPlugin"
+            }
+        },
+        "PowerCost": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.6\\cache\\cura_packages\\PowerCost.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "YiamiYo",
+                    "display_name": "YiamiYo",
+                    "email": "yiamiyo@yahoo.gr",
+                    "website": "https://github.com/YiamiYo"
+                },
+                "description": "Simple plugin to display the estimated power cost of a print.\n\nManage Printers > Power Cost Settings",
+                "display_name": "Power Cost",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "PowerCost",
+                "package_type": "plugin",
+                "package_version": "0.1.3",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.0.0",
+                "website": "https://github.com/YiamiYo/Cura-PowerCostPlugin"
+            }
+        },
+        "ProfilAnalyser": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.5\\cache\\cura_packages\\ProfilAnalyser.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "5axes",
+                    "display_name": "5axes",
+                    "email": "cuq@free.fr",
+                    "website": "https://github.com/5axes"
+                },
+                "description": "Plugin to analyse Cura profils configuration much easier. Export the different profils in HTML page",
+                "display_name": "Profil Analyser",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "ProfilAnalyser",
+                "package_type": "plugin",
+                "package_version": "1.3.0",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.2.0",
+                "website": "https://github.com/5axes/ProfilAnalyser"
+            }
+        },
+        "SettingsGuide2": {
+            "filename": "D:\\Users\\elmaniaco\\AppData\\Local\\cura\\5.1\\cache\\cura_packages\\SettingsGuide2.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "Ghostkeeper",
+                    "display_name": "Ghostkeeper",
+                    "email": "rubend@tutanota.com",
+                    "website": "https://github.com/Ghostkeeper"
+                },
+                "description": "A guide on what settings do and how to use them.\nRight-click on a setting to access the guide.",
+                "display_name": "Settings Guide",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "SettingsGuide2",
+                "package_type": "plugin",
+                "package_version": "2.9.2",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.0.0",
+                "website": "https://github.com/Ghostkeeper/SettingsGuide"
+            }
+        },
+        "SpoonAntiWarping": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.5\\cache\\cura_packages\\SpoonAntiWarping.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "5axes",
+                    "display_name": "5axes",
+                    "email": "cuq@free.fr",
+                    "website": "https://github.com/5axes"
+                },
+                "description": "Add Automatique Anti-Warping Spoon",
+                "display_name": "Spoon Anti-Warping",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "SpoonAntiWarping",
+                "package_type": "plugin",
+                "package_version": "1.1.0",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.2.0",
+                "website": "https://github.com/5axes/SpoonAntiWarping"
+            }
+        },
+        "StartOptimiser": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.3\\cache\\cura_packages\\StartOptimiser.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "fieldofview",
+                    "display_name": "fieldOfView",
+                    "email": "aldo@fieldofview.com",
+                    "website": "http://fieldofview.com"
+                },
+                "description": "Lets the user optimise the Cura startup time by only loading configuration files for printers that are currently configured in Cura.\n\nThe development of this plugin can be sponsored via Github Sponsors (https://github.com/sponsors/fieldofview) or Paypal (https://www.paypal.me/fieldofview)",
+                "display_name": "Startup Optimiser",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "StartOptimiser",
+                "package_type": "plugin",
+                "package_version": "3.6.0",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.0.0",
+                "website": "https://github.com/fieldOfView/Cura-StartOptimiser"
+            }
+        },
+        "TabAntiWarping": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.3\\cache\\cura_packages\\TabAntiWarping.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "5axes",
+                    "display_name": "5axes",
+                    "email": "cuq@free.fr",
+                    "website": "https://github.com/5axes"
+                },
+                "description": "Add elements as rounded Tab to limit warping effect in print corner.\nOption to create a Capsule instead a Tab\nOption to create a Tab with several layer height\n\nLimited by the possibility to use just a global : Support X/Y Distance",
+                "display_name": "TabAntiWarping",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "TabAntiWarping",
+                "package_type": "plugin",
+                "package_version": "1.4.0",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.2.0",
+                "website": "https://github.com/5axes/TabAntiWarping"
+            }
+        },
+        "TabPlus": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.5\\cache\\cura_packages\\TabPlus.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "5axes",
+                    "display_name": "5axes",
+                    "email": "cuq@free.fr",
+                    "website": "https://github.com/5axes"
+                },
+                "description": "Add Automaticaly elements as rounded Tab to limit warping effect in print corner.\nOption to create a Capsule instead a Tab\nOption to create a Tab with several layer height",
+                "display_name": "Tab+ AntiWarping",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "TabPlus",
+                "package_type": "plugin",
+                "package_version": "1.1.0",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.2.0",
+                "website": "https://github.com/5axes/TabPlus"
+            }
+        },
+        "ThingiBrowser": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.4\\cache\\cura_packages\\ThingiBrowser.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "ChrisTerBekeAuthor",
+                    "display_name": "Chris ter Beke",
+                    "email": "info@christerbeke.com",
+                    "website": "https://christerbeke.com"
+                },
+                "description": "Search and import 3D files from popular online repositories directly in Cura.\n\nThis plugin is not affiliated with Thingiverse or MyMiniFactory.",
+                "display_name": "ThingiBrowser",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "ThingiBrowser",
+                "package_type": "plugin",
+                "package_version": "3.1.0",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.4.0",
+                "website": "https://github.com/ChrisTerBeke/ThingiBrowser"
+            }
+        },
+        "UltimakerPPSCF": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.8\\cache\\cura_packages\\UltimakerPPSCF.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "UltimakerPackages",
+                    "display_name": "Ultimaker",
+                    "email": "plugins@ultimaker.com",
+                    "website": "https://ultimaker.com"
+                },
+                "description": "UltiMaker PPS CF is a carbon fiber reinforced polyphenylene sulfide (PPS) and the next level composite material for the UltiMaker Factor 4. It has excellent performance while still being easy to print.\n.\nThe best choice to replace metal and PEEK\nUltiMaker PPS CF provides a high-performing alternative to steel or aluminum for less-demanding parts, and also replace PEEK \u2013 offering a more cost-effective, more reliable, and easier experience.\n.\nEngineered for precise 3D printing\nUltiMaker PPS CF ensures consistent flow and exceptional print quality. Experience hassle-free printing with excellent dimensional accuracy, allowing you to bring your designs to life with the highest levels of precision.\n.\nExtreme durability\nUltiMaker PPS CF unlocks a new category of 3D printing applications. Not only is it highly temperature resistant (with an HDT B of over 230 \u00b0C after printing), it also resists any solvent below 200 \u00b0C and is flame retardant \u2013 intrinsically meeting the UL94 V0 standard.",
+                "display_name": "UltiMaker PPS CF",
+                "is_active": false,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "UltimakerPPSCF",
+                "package_type": "material",
+                "package_version": "1.0.1",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.8.0",
+                "website": "https://ultimaker.com/materials/factor-series-pps-carbon-fiber/"
+            }
+        },
+        "UniversalCuraSettings": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.6\\cache\\cura_packages\\UniversalCuraSettings.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "5axes",
+                    "display_name": "5axes",
+                    "email": "cuq@free.fr",
+                    "website": "https://github.com/5axes"
+                },
+                "description": "Universal Cura Settings. 13 types of adjustment to define recommended settings for your current Cura configuration.\n 1)    Standard\n 2)    Bed adhesion\n 3)    Extra quality\n 4)    Mechanical \n 5)    Figurine\n 6)    Prototype\n 7)    Support\n 8)    Save material\n 9)    Small part\n 10)  Small details\n 11)  Top surface\n 12)  Vase\n 13)  Warpings",
+                "display_name": "Universal Cura Settings",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "UniversalCuraSettings",
+                "package_type": "plugin",
+                "package_version": "0.2.2",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.4.0",
+                "website": "https://github.com/5axes/UniversalCuraSettings"
+            }
+        }
+    },
+    "to_install": {},
+    "to_remove": [],
+    "version": 1
+}

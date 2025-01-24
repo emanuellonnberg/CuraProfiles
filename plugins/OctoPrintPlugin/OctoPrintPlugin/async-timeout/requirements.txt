@@ -1,0 +1,9 @@
+-e .
+build==0.7.0
+docutils==0.18.1
+mypy==0.920; implementation_name=="cpython"
+pre-commit==2.16.0
+pytest==6.2.5
+pytest-asyncio==0.16.0
+pytest-cov==3.0.0
+twine==3.7.1
