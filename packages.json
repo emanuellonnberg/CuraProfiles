@@ -111,6 +111,28 @@
                 "website": "https://github.com/5axes/Calibration-Shapes"
             }
         },
+        "CalibrationShapesReborn": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.9\\cache\\cura_packages\\CalibrationShapesReborn.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "SlasheeTheCow",
+                    "display_name": "Slashee the Cow",
+                    "email": "slasheethecow@gmail.com",
+                    "website": "https://github.com/slashee-the-cow"
+                },
+                "description": "Parts to add to your scene to test various capabilities of your printer. Also lets you make some basic shapes (cube, sphere, cylinder, tube). Originally by 5@xes.\n\nUpdated for compatibility with current versions of Cura.\nThis version no longer includes test towers - they were awkward to begin with and AutoTowers Generator does a far better job than I ever could.",
+                "display_name": "Calibration Shapes Reborn",
+                "is_active": false,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "CalibrationShapesReborn",
+                "package_type": "plugin",
+                "package_version": "1.0.1",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.9.0",
+                "website": "https://github.com/Slashee-the-Cow/CalibrationShapesReborn/"
+            }
+        },
         "CuraBlender": {
             "filename": "D:\\Users\\elmaniaco\\AppData\\Local\\cura\\5.1\\cache\\cura_packages\\CuraBlender.curapackage",
             "package_info": {
@@ -615,6 +637,27 @@
                 "sdk_version": 8,
                 "sdk_version_semver": "8.4.0",
                 "website": "https://github.com/5axes/UniversalCuraSettings"
+            }
+        },
+        "valve": {
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.9\\cache\\cura_packages\\valve.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "Casper Lamboo <casperlamboo@gmail.com, casper.lamboo@ultimaker.com>",
+                    "display_name": "Friendly Ghost",
+                    "website": "https://github.com/casperlamboo/"
+                },
+                "description": "Set a flow limit on the extruder",
+                "display_name": "valve",
+                "is_active": true,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "valve",
+                "package_type": "plugin",
+                "package_version": "0.1.0",
+                "sdk_version": 8,
+                "sdk_version_semver": "8.4.0",
+                "website": "https://github.com/casperlamboo/Valve/"
             }
         }
     },
