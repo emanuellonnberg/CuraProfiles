@@ -120,14 +120,14 @@
                     "email": "slasheethecow@gmail.com",
                     "website": "https://github.com/slashee-the-cow"
                 },
-                "description": "Parts to add to your scene to test various capabilities of your printer. Also lets you make some basic shapes (cube, sphere, cylinder, tube). Originally by 5@xes.\n\nUpdated for compatibility with current versions of Cura.\nThis version no longer includes test towers - they were awkward to begin with and AutoTowers Generator does a far better job than I ever could.",
+                "description": "Parts to add to your scene to test various capabilities of your printer. Test how far your printer can bridge with the custom bridging test shapes! Also lets you make some basic shapes (cube, sphere, cylinder, tube, cone) - but now you can manually set the dimensions, for a few of them, anyway!\n\nOriginally by 5@xes.\n\nUpdated for compatibility with current versions of Cura.\nThis version no longer includes test towers - they were awkward to begin with and AutoTowers Generator does a far better job than I ever could.",
                 "display_name": "Calibration Shapes Reborn",
-                "is_active": false,
+                "is_active": true,
                 "is_bundled": false,
                 "is_installed": true,
                 "package_id": "CalibrationShapesReborn",
                 "package_type": "plugin",
-                "package_version": "1.0.1",
+                "package_version": "1.2.0",
                 "sdk_version": 8,
                 "sdk_version_semver": "8.9.0",
                 "website": "https://github.com/Slashee-the-Cow/CalibrationShapesReborn/"
