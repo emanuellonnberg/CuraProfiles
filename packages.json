@@ -398,7 +398,7 @@
             }
         },
         "OrientationPlugin": {
-            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.4\\cache\\cura_packages\\OrientationPlugin.curapackage",
+            "filename": "C:\\Users\\emanu\\AppData\\Local\\cura\\5.9\\cache\\cura_packages\\OrientationPlugin.curapackage",
             "package_info": {
                 "author": {
                     "author_id": "nallath",
@@ -413,7 +413,7 @@
                 "is_installed": true,
                 "package_id": "OrientationPlugin",
                 "package_type": "plugin",
-                "package_version": "3.7.1",
+                "package_version": "3.7.2",
                 "sdk_version": 8,
                 "sdk_version_semver": "8.0.0",
                 "website": "https://github.com/nallath/CuraOrientationPlugin"
