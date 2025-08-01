@@ -1,0 +1,2 @@
+Listening on 127.0.0.1:54579
+Received a handshake: Request { metadata: MetadataMap { headers: {"content-type": "application/grpc", "te": "trailers", "grpc-accept-encoding": "identity, deflate, gzip", "grpc-timeout": "301S", "user-agent": "grpc-c++/1.50.1 grpc-c/28.0.0 (windows; chttp2)", "cura-engine-uuid": "72a5d984-1a46-4c8d-98c3-30e27e3b16f9", "cura-thread-id": "43320"} }, message: CallRequest { slot_id: GcodePathsModify, version: "0.1.0-alpha", plugin_name: "valve", plugin_version: "0.1.0" }, extensions: Extensions }
